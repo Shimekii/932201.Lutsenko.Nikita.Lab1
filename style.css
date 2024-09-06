@@ -5,7 +5,7 @@
 .body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-.header{
+.header-footer{
     display: grid;
     place-items: center;
     height: 40px;
@@ -15,12 +15,9 @@
 .content{
     margin: 0 auto;
     width: 550px;
-    padding: 15px;
+    padding: 20px;
     background-color:blue;
     color: white;
-}
-.content h1{
-    margin-bottom: 15px;
 }
 .figure{
     height: 110px;
@@ -40,46 +37,19 @@ ul > li{
     padding-bottom: 10px;
 }
 .container{
-    display: grid;
     float: right;
-    grid-template-columns: repeat(3,44px);
-    grid-template-rows: repeat(3,34px);
-    gap: 3px;
-    border: solid 1px;
+    border: solid 1px white;
     width: 143px; 
     height: 113px;
-    padding-top: 3px;
-    padding-left: 3px;
+    color: white;
 }
-.box{
-    width: 44px;
-    height: 34px;
-    border: solid 1px;
+td{
+    border: solid 1px white;
+    display: table-cell;
+    vertical-align: bottom;
     text-align: center;
-}
-
-.first{
-    height: calc(34px * 2 + 3px);
-    background-color: green;
-    grid-row: span 2;
-}
-.last{
-    width: calc(44px * 2 + 3px);
-    background-color: red;
-}
-.visual-styles h2{
-    margin: 10px;
-}
-.visual-styles p{
-    margin: 10px;
-}
-.container p{
     font-weight: bold;
 }
-.footer{
-    display: grid;
-    place-items: center;
-    height: 40px;
-    background-color: green;
-    color: white;
+.visual-styles p{
+    margin-top: 8px;
 }
